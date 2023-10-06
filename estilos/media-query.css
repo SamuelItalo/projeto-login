@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* Typical Device Breackpoints 2023
+    
+     Celular: de 600px ate 768px
+     Tablet: 768px ate 1024px
+     Desktop: 992px ate 1366px
+     Grandes telas: acima de 1200
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        background-image: linear-gradient(to bottom,  #fffef2 , #5f5f3d);
+    }
+
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#foto {
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to bottom,  #fffef2 , #5f5f3d);
+    }
+
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#foto {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;
+        width: 50%;
+    }
+}
