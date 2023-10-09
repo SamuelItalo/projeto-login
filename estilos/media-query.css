@@ -56,4 +56,8 @@
         width: 50%;
         
     }
+
+    div.campo > input {
+        transform: translateY(-12px);
+    }
 }
