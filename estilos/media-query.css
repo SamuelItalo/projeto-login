@@ -8,7 +8,7 @@
      Grandes telas: acima de 1200
 */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) { /*Configuração para Tablet*/
 
     body {
         background-image: linear-gradient(to bottom,  #fffef2 , #5f5f3d);
@@ -16,6 +16,7 @@
 
     section#login {
         width: 80vw;
+        height: 320px;
     }
 
     section#login > div#foto {
@@ -30,7 +31,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /*Configuração para Desktop*/
 
     body {
         background-image: linear-gradient(to bottom,  #fffef2 , #5f5f3d);
@@ -38,7 +39,11 @@
 
     section#login {
         width: 950px;
+        height: 410px;
+        
     }
+
+    
 
     section#login > div#foto {
         float: right;
@@ -49,5 +54,6 @@
     #formulario {
         float: left;
         width: 50%;
+        
     }
 }
