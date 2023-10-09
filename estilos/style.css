@@ -92,7 +92,7 @@ div.campo > input {
     background-color: #fffef2;
     font-size: 1em;
     width: calc(100% - 45px);
-    height: 100%;
+    height: 95%;
     transform: translateY(-12px);
     border-radius: 8px;
     border: none;
